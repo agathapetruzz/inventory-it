@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylecadastro.css">
+    
+    <title>CADASTRE-SE</title>
+</head>
+<body>
+    <div class="main-cadastro">
+        <div class="left-cadastro">
+            <h1></h1>
+            <img src="img-cadastro.svg" class="left-login-image" alt="pcimagem">
+           
+        </div>
+        
+        <div class="right-cadastro">
+            <div class="card-cadastro">
+                <h1>CADASTRO</h1>
+                <div class="textfield">
+                    <label for="usuario">Usuário</label>
+                    <input type="text" name="usuario" placeholder="Usuário">
+                </div>
+                <div class="textfield">
+                    <label for="nome">Nome completo</label>
+                    <input type="text" name="nome" placeholder="Nome">
+                </div>
+                <div class="textfield">
+                    <label for="permissao">Nível de acesso:</label>
+                    <input list="permissao">
+                        <datalist id="permissao">
+                            <option value="Administrador">
+                            <option value="Usuário">
+                        </datalist>
+                 </div>
+                    <div class="textfield">
+                        <label for="senha">Senha</label>
+                        <input type="password" name="senha" placeholder="Digite sua senha...">
+                  
+                    <a href="index.html">Já tenho cadastro</a>
+                </div>
+                <button class="btn-cadastro">Login</button>
+            </div>
+        </div>
+
+    </div>
+    
+</body>
+</html>
